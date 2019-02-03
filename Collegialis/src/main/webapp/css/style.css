@@ -1,0 +1,144 @@
+@font-face {
+	font-family: 'hestinaregular';
+	src: url('../fonts/hestina_font_by_keithzo_7ntypes-webfont.woff2')
+		format('woff2'),
+		url('../fonts/hestina_font_by_keithzo_7ntypes-webfont.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'madeleina_sansregular';
+	src: url('../fonts/madeleina_sans-webfont.woff2') format('woff2'),
+		url('../fonts/madeleina_sans-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #3c763d;
+	transition: all ease-in-out .5s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ff8000;
+}
+
+body {
+	background-color: #DDD;
+	color: #808080;
+	font-family: 'madeleina_sansregular';
+	font-size: 18px;
+}
+
+.login {
+	text-align: left;
+	margin: auto;
+	padding: 2.5%;
+	width: 94%;
+	max-width: 500px;
+	border-radius: 6px;
+	background-color: #eeeeee5e;
+}
+
+.login h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+}
+
+.loginbody {
+	text-align: center;
+}
+
+.loginbody img {
+	margin: 100px 0 50px;
+	max-width: 400px;
+}
+
+.Lista {
+	width: 600px;
+	margin: 30px auto 40px auto;
+	display: grid;
+}
+
+h1 {
+	font-size: 35px;
+    color: #59b200;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+.content  {
+	max-width: 1000px;
+	min-height: 200px;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	margin: 20px auto;
+	box-shadow: 2px 2px 10px #797979;
+	padding: 20px;
+}
+
+
+.fa-edit:hover {
+	color: #008040;
+}
+
+.fa-trash-alt:hover {
+	color: #ff0000;
+}
+
+.1contentComent:hover>.contentComentOp label:before {
+	font-family: "Font Awesome 5 Free";
+	display: block;
+	cursor: pointer;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #555;
+	content: "\f0c8";
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox]+label:before { /* unchecked icon */
+	display: inline-block;
+	font-family: "Font Awesome 5 Free";
+	cursor: pointer;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #555;
+	content: "\f0c8";
+}
+
+input[type=checkbox]+label:hover:before { /* unchecked icon */
+	color: #0000ff;
+}
+
+input[type=checkbox]:checked+label:before { /* checked icon */
+	display: inline-block;
+	content: "\f14a";
+	color: #0000ff;
+}
+
+.rodape {
+    font-size: 13px;
+    margin-top: 20px;
+    bottom: 0;
+}
